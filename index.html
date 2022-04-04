@@ -5,63 +5,78 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WebStudio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <header>
             <nav>
-                <a href="/"> WebStudio </a>
-                <ul>
+                <a class="logo link" href="/"
+                    >Web<span class="logo-header">Studio</span></a
+                >
+                <ul class="site-nav">
                     <li>
-                        <a href="#">Студия</a>
+                        <a href="./index.html" class="link">Студия</a>
                     </li>
-                    <li><a href="#">Портфолио</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li>
+                        <a href="./portfolio.html" class="link">Портфолио</a>
+                    </li>
+                    <li><a href="" class="link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li><a href="">info@devstudio.com</a></li>
-                <li><a href="">+38 096 111 11 11</a></li>
+            <ul class="contact">
+                <li><a href="" class="link">info@devstudio.com</a></li>
+                <li><a href="" class="link">+38 096 111 11 11</a></li>
             </ul>
         </header>
         <main>
-            <section>
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+            <section class="section">
+                <h1 class="section-title">
+                    Эффективные решения для вашего бизнеса
+                </h1>
+                <button class="order-button" type="button">
+                    Заказать услугу
+                </button>
             </section>
-            <section>
-                <ul>
-                    <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>
+            <section class="section-dignity">
+                <ul class="section-dignity-list">
+                    <li class="dignity-list-item">
+                        <h3 class="dignity-title">Внимание к деталям</h3>
+                        <p class="dignity-text">
                             Идейные соображения, а также начало повседневной
                             работы по формированию позиции.
                         </p>
                     </li>
-                    <li>
-                        <h3>Пунктуальность</h3>
-                        <p>
+                    <li class="dignity-list-item">
+                        <h3 class="dignity-title">Пунктуальность</h3>
+                        <p class="dignity-text">
                             Задача организации, в особенности же рамки и место
                             обучения кадров влечет за собой.
                         </p>
                     </li>
-                    <li>
-                        <h3>Планирование</h3>
-                        <p>
+                    <li class="dignity-list-item">
+                        <h3 class="dignity-title">Планирование</h3>
+                        <p class="dignity-text">
                             Равным образом консультация с широким активом в
                             значительной степени обуславливает.
                         </p>
                     </li>
-                    <li>
-                        <h3>Современные технологии</h3>
-                        <p>
+                    <li class="dignity-list-item">
+                        <h3 class="dignity-title">Современные технологии</h3>
+                        <p class="dignity-text">
                             Значимость этих проблем настолько очевидна, что
                             реализация плановых заданий.
                         </p>
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Чем мы занимаемся</h2>
+            <section class="section">
+                <h2 class="section-second-title">Чем мы занимаемся</h2>
                 <ul>
                     <li>
                         <img
@@ -89,58 +104,60 @@
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Наша команда</h2>
-                <ul>
-                    <li>
+            <section class="section-team">
+                <h2 class="section-second-title">Наша команда</h2>
+                <ul class="team-list">
+                    <li class="team-list-item">
                         <img
                             src="foto/ИгорьДемьяненко.jpg"
                             width="270"
                             height="260"
                             alt=""
                         />
-                        <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <h3 class="team-title">Игорь Демьяненко</h3>
+                        <p class="team-text">Product Designer</p>
                     </li>
-                    <li>
+                    <li class="team-list-item">
                         <img
                             src="foto/ОльгаРепина.jpg"
                             width="270"
                             height="260"
                             alt=""
                         />
-                        <h3>Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <h3 class="team-title">Ольга Репина</h3>
+                        <p class="team-text">Frontend Developer</p>
                     </li>
-                    <li>
+                    <li class="team-list-item">
                         <img
                             src="foto/НиколайТарасов.jpg"
                             width="270"
                             height="260"
                             alt=""
                         />
-                        <h3>Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <h3 class="team-title">Николай Тарасов</h3>
+                        <p class="team-text">Marketing</p>
                     </li>
-                    <li>
+                    <li class="team-list-item">
                         <img
                             src="foto/МихаилЕрмаков.jpg"
                             width="270"
                             height="260"
                             alt=""
                         />
-                        <h3>Михаил Ермаков</h3>
-                        <p>UI Designer</p>
+                        <h3 class="team-title">Михаил Ермаков</h3>
+                        <p class="team-text">UI Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
         <footer>
-            <a href="/"> WebStudio </a>
+            <a class="logo link" href="/">
+                Web<span class="logo-accent-footer">Studio</span>
+            </a>
             <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="">info@devstudio.com</a>
-                <a href="">+38 096 111 11 11</a>
+                <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+                <a class="contacts link" href="">info@devstudio.com</a>
+                <a class="contacts link" href="">+38 096 111 11 11</a>
             </address>
         </footer>
     </body>

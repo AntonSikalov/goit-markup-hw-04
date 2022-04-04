@@ -1,0 +1,154 @@
+body {
+    font-family: "Roboto";
+    font-style: normal;
+    background-color: #e5e5e5;
+    color: #757575;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+.link {
+    color: #212121;
+    text-decoration: none;
+}
+
+.link:focus,
+.link:hover {
+    color: #2196f3;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.order-button {
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.dignity-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.8;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.dignity-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.section-second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.logo-accent-footer {
+    color: #ffffff;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.address-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.contacts {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-button {
+    background: #f5f4fa;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: #ffffff;
+    background: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
