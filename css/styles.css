@@ -337,6 +337,7 @@ header {
 .filter-item {
     margin-right: 8px;
 }
+
 .filter-item:last-child {
     margin-right: 0px;
 }
