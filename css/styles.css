@@ -32,6 +32,12 @@ ul {
 .link:hover {
     color: var(--accent-color);
 }
+
+.link:focus .contact-svg,
+.link:hover .contact-svg {
+    fill: var(--accent-color);
+}
+
 header {
     border-bottom: 1px solid #ececec;
 }
@@ -73,7 +79,14 @@ header {
 }
 
 .hero {
-    background: #2f303a;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/background.jpg");
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -138,6 +151,19 @@ header {
 .dignity-list-item:last-child {
     margin-right: 0px;
 }
+.dignity-icon {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background: #f5f4fa;
+    border-radius: 4px;
+}
+.dignity-svg {
+    width: 75px;
+}
 .dignity-title {
     margin-bottom: 10px;
 
@@ -193,8 +219,72 @@ header {
 .team-list-item:last-child {
     margin-right: 0px;
 }
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-link:hover .social-svg,
+.social-link:focus .social-svg {
+    fill: var(--primary-background-color);
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+.social-svg {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+}
+
+.clients-list {
+    display: flex;
+}
+
+.clients-item {
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--accent-color);
+}
+.clients-item:last-child {
+    margin-right: 0;
+}
+
+.clients-svg {
+    fill: #afb1b8;
+    width: 170px;
+    height: 90px;
+}
+.clients-svg:focus,
+.clients-svg:hover {
+    fill: var(--accent-color);
+}
 .team-text {
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.1;
     text-align: center;
@@ -241,7 +331,15 @@ header {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
+.contact-svg {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+.contact-svg:hover,
+.contact-svg:focus {
+    fill: var(--accent-color);
+}
 .contacts-email {
     margin-bottom: 9px;
 
@@ -264,7 +362,10 @@ header {
 
     color: var(--primary-text-color);
 }
+
 .contact-link {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -286,6 +387,50 @@ header {
     background: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.company-social {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+.social-list-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+}
+.social-svg-footer {
+    width: 20px;
+    height: 20px;
+    fill: var(--primary-background-color);
+}
+
+.footer-list {
+    display: flex;
+}
+.adress-box {
+    margin-right: 70px;
+}
+
+.social-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: var(--accent-color);
 }
 
 .address {
@@ -356,11 +501,16 @@ header {
     background: #ffffff;
     box-sizing: border-box;
 }
+
+.portfolio-list-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-list-item:nth-last-child(-n + 3) {
     margin-bottom: 0;
 }
 .portfolio-list-item:nth-child(3n) {
-    margin: 0px;
+    margin-right: 0px;
 }
 .description {
     padding: 24px 20px;
