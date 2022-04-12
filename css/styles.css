@@ -260,6 +260,13 @@ header {
 
 .clients-item {
     margin-right: 30px;
+}
+
+.clients-item:last-child {
+    margin-right: 0;
+}
+.client-link {
+    display: flex;
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -267,12 +274,9 @@ header {
     border-radius: 4px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-    border: 1px solid var(--accent-color);
-}
-.clients-item:last-child {
-    margin-right: 0;
+.client-link:hover .clients-svg,
+.client-link:focus .clients-svg {
+    fill: var(--accent-color);
 }
 
 .clients-svg {
@@ -500,6 +504,9 @@ header {
     margin-bottom: 30px;
     background: #ffffff;
     box-sizing: border-box;
+}
+.portfolio-img {
+    display: block;
 }
 
 .portfolio-list-item:hover {
